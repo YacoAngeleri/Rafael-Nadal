@@ -1,0 +1,246 @@
+body{
+	background-image: url(../imagenes/fondo.jpg);
+	font-family: Times New Roman;
+	width: 100%;
+}
+
+/*Estilos menu de navegacion*/
+#opciones{
+    text-align: center;
+    list-style: none;
+    background-color: #E78F33;
+    border: 0.2em solid black;
+    margin: 0.5em;
+}
+.lista{
+    list-style: none;
+    text-align: left;
+}
+/*Rollover*/
+a:link {
+    color: black;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: green;
+}
+header ul li:hover{
+    font-size: 1.05em;
+    opacity: .8;
+    background-color: rgb(255, 161, 46);
+    border-radius: 1em;
+}
+header img:hover{
+    width: 83px;
+    opacity: 0.8;
+}
+/*Estilos de los titulos*/
+h1{
+	text-align: center;
+	text-decoration: underline;
+    font-family: Monaco;
+}
+h2{
+	text-decoration: underline;
+    font-family: Monaco;
+}
+h3{
+    font-family: Monaco;
+}
+h4{
+    font-family: Monaco;
+}
+.tituloo{
+    text-align: center;
+    text-decoration: underline;
+}
+/*Estilos para los section*/
+ section {
+	box-sizing: border-box;
+	text-align: center;
+	border: 0.2em solid black;
+	background-color: #F9A64D;
+    border-radius: 1em;
+}
+/*Estilos del footer*/
+footer{
+	background-color: #F38B1D ;
+	margin-top: 0.5em;
+	text-align: center;
+    font-family: Monaco;
+    border-radius: 0.5em;
+}
+.sitio{
+    font-size: 0.9em;
+    padding-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+.imagen-footer{
+    width: 2%;
+    margin: auto;
+    margin-bottom: 0.2em;
+}
+.icono-footer{
+    margin-left: 1em;
+}
+.icono-footer:hover{
+    opacity: 0.8;
+    font-weight: 600;
+}
+.derechos{
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+.nombre:hover{
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+/*Estilos para la galeria de fotos*/
+.galeria{
+	margin-left: 1.2em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	display: inline-block;
+	font-size: medium;
+	width: 46.5%;
+	text-align: center;
+	padding: 0.5em;
+}
+.galeriasespeciales{
+    display: flex;
+}
+.galeriasespeciales article {
+    display: flex;
+    width: 30em;
+    height: 20em;
+    margin: auto;
+
+}
+.galeriasespeciales article img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+
+}
+.galeriasespeciales article img:hover{
+    cursor: crosshair;
+    width: 15em;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.imagen{
+	margin-bottom: 1.5vw;
+	height: 15vw;
+}
+.imagen2{
+	float: right;
+	margin-bottom: 1.5vw;
+	height: 15vw;
+}
+.parrafo{
+	text-align: left;
+}
+.una{
+	display: flex;
+	justify-content: center;
+}
+#videos{
+	text-align: center;
+}
+#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11, #d12, #d13, #d14{
+    margin: 0.1em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    font-size: medium;
+    width: 49%;
+    box-sizing: border-box;
+    border-radius: 1em;
+    text-align: center;
+    border: 0.2em solid black;
+    padding: 0.5em;
+    background-color: #FCB76D;  
+}
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10, #div11, #div12, #div13, #div14{
+    display:none;
+    text-align: left;
+    background-color: #FCB76D; 
+}
+#d{
+   margin: 0.1vw;
+   width: 98.3%;
+    margin-bottom: 0.5vw;
+    display: inline-block;
+    font-size: medium;
+    box-sizing: border-box;
+    text-align: center;
+    border: 0.25vw solid black;
+    padding: 0.5vw;
+    background-color: #FCB76D;   
+}
+#divv{
+    display:none;
+    text-align: left;
+    background-color: #FCB76D; 
+}
+/*Secciones interesantes carrera deportiva*/
+.seccionInteresante:hover{
+    font-size: 1.1em;
+    opacity: .8;
+}
+/*Estilos juego*/
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 0.8vw;
+    border-bottom-right-radius: 0.8vw;
+    width: 19.1vw;
+    height: 34.2vw;
+    padding: 0 0.2vw;
+}
+.estadisticas{
+    background-color: #FCA84F;
+    height: 11vw;
+    padding: 0.3vw 2.6vw;
+    box-sizing: border-box;
+    margin-bottom: 0.2vw;
+    text-decoration-line: none;
+    font-size: 3vw;
+}
+/*contenedor de las dos secciones*/
+main{
+    margin: 10vw auto 5vw;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    background-color: #FCA84F ;
+    padding: 0 1vw 1vw 1vw;
+    border-radius: 0.8vw;
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+.jueguito{
+    background-color: #fff;
+    height: 8vw;
+    width: 8vw;
+}
+
+img:hover{
+    cursor: pointer;
+}
+/*Estilos para celulares*/
+@media only screen and (max-width: 768px) {
+     #d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11, #d12, #d13, #d14{
+    width: 100%;
+    }
+  }
