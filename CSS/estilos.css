@@ -11,17 +11,53 @@ body{
     background-color: #E78F33;
     border: 0.2em solid black;
     margin: 0.5em;
+    border-radius: .5em;
 }
 .lista{
     list-style: none;
     text-align: left;
 }
+header ul li {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+  }
+  
+  header ul li::before,
+  header ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(179, 58, 3);
+    transform: scaleX(0);
+    transition: transform 0.25s;
+  }
+  
+  header ul li::before {
+    top: 0px;
+    transform-origin: left;
+  }
+  
+  header ul li::after {
+    bottom: -3px;
+    transform-origin: right;
+  }
+  
+  header ul li:hover::before,
+  header ul li:hover::after,
+  .active::before,
+  .active::after {
+    transform: scaleX(1);
+  }
 /*Rollover*/
 a:link {
     color: black;
 }
 a:visited{
-    color: blue;
+    color: rgb(167, 55, 3);
 }
 a:hover{
     color: purple;
@@ -250,7 +286,7 @@ img:hover{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
-    background-color: rgb(111, 2, 158);
+    background-color: darkviolet;
     border-radius: 4em;
 }
 ::-webkit-scrollbar-thumb{
