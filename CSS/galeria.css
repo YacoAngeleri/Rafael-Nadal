@@ -1,0 +1,35 @@
+/*Estilos para la galeria de fotos*/
+.galeria{
+	margin-left: 1.2em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	display: inline-block;
+	font-size: medium;
+	width: 46.5%;
+	text-align: center;
+	padding: 0.5em;
+}
+.galeriasespeciales{
+    display: flex;
+}
+.galeriasespeciales article {
+    display: flex;
+    width: 30em;
+    height: 20em;
+    margin: auto;
+
+}
+.galeriasespeciales article img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+
+}
+.galeriasespeciales article img:hover{
+    cursor: crosshair;
+    width: 15em;
+    opacity: 1;
+    filter: contrast(120%);
+}

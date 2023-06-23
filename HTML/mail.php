@@ -30,4 +30,4 @@
 		@mail($sendto,$subject,$corps,$From);
 ?>
 
-<a href="../HTML/index.html">Enviado correctamente, click aqui para volver al inicio</a>
+<a href="../index.html">Enviado correctamente, click aqui para volver al inicio</a>

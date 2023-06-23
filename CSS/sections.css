@@ -1,0 +1,8 @@
+/*Estilos para los section*/
+section {
+	box-sizing: border-box;
+	text-align: center;
+	border: 0.2em solid black;
+	background-color: #F9A64D;
+    border-radius: 1em;
+}

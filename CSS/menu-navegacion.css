@@ -1,0 +1,91 @@
+/*Estilos menu de navegacion*/
+#opciones{
+    text-align: center;
+    list-style: none;
+    background-color: #E78F33;
+    border: 0.2em solid black;
+    margin: 0.5em;
+    border-radius: .5em;
+}
+.lista{
+    list-style: none;
+    text-align: left;
+}
+header ul li {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+  }
+  
+  header ul li::before,
+  header ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(179, 58, 3);
+    transform: scaleX(0);
+    transition: transform 0.25s;
+  }
+  
+  header ul li::before {
+    top: 0px;
+    transform-origin: left;
+  }
+  
+  header ul li::after {
+    bottom: -3px;
+    transform-origin: right;
+  }
+  
+  header ul li:hover::before,
+  header ul li:hover::after,
+  .active::before,
+  .active::after {
+    transform: scaleX(1);
+  }
+/*Rollover*/
+a:link {
+    color: black;
+}
+a:visited{
+    color: rgb(167, 55, 3);
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: green;
+}
+header ul li:hover{
+    font-size: 1.05em;
+    opacity: .8;
+    background-color: rgb(255, 161, 46);
+    border-radius: 1em;
+}
+header img:hover{
+    width: 83px;
+    opacity: 0.8;
+}
+/*Estilos de los titulos*/
+h1{
+	text-align: center;
+	text-decoration: underline;
+    font-family: Monaco;
+}
+h2{
+	text-decoration: underline;
+    font-family: Monaco;
+}
+h3{
+    font-family: Monaco;
+}
+h4{
+    font-family: Monaco;
+}
+.tituloo{
+    text-align: center;
+    text-decoration: underline;
+}

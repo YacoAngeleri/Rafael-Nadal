@@ -1,0 +1,34 @@
+/*Estilos del footer*/
+footer{
+	background-color: #F38B1D ;
+	margin-top: 0.5em;
+	text-align: center;
+    font-family: Monaco;
+    border-radius: 0.5em;
+}
+.sitio{
+    font-size: 0.9em;
+    padding-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+.imagen-footer{
+    width: 2%;
+    margin: auto;
+    margin-bottom: 0.2em;
+}
+.icono-footer{
+    margin-left: 1em;
+}
+.icono-footer:hover{
+    opacity: 0.8;
+    font-weight: 600;
+}
+.derechos{
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+.nombre:hover{
+    opacity: 0.8;
+    font-weight: 600;
+}
